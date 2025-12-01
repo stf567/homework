@@ -97,11 +97,11 @@ port = 8080
 Игра
 
 Конфигурация:
-
-(define MAX_PLAYERS 4)
 ```
+(define MAX_PLAYERS 4)
+
 begin
-    game := begin
+    game := begi
         level_size := 100;
         max_players := [MAX_PLAYERS];
         time_limit := 600;
@@ -114,15 +114,9 @@ end
 
 [game]
 ```
-(define MAX_PLAYERS 4)
-
-begin
-    game := begin
-        level_size := 100;
-        max_players := [MAX_PLAYERS];
-        time_limit := 600;
-    end;
-end
+level_size = 100
+max_players = 4
+time_limit = 600
 ```
 
 ## Тесты
