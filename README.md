@@ -113,9 +113,17 @@ end
 Вывод TOML:
 
 [game]
-level_size = 100
-max_players = 4
-time_limit = 600
+```
+(define MAX_PLAYERS 4)
+
+begin
+    game := begin
+        level_size := 100;
+        max_players := [MAX_PLAYERS];
+        time_limit := 600;
+    end;
+end
+```
 
 ## Тесты
 
