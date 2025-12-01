@@ -63,8 +63,7 @@ python cli.py config.txt
 python cli.py
 ```
 (define MAX 10)
-```
-```
+
 begin
     value := [MAX];
 end
@@ -111,9 +110,8 @@ end
 
 
 Вывод TOML:
-
-[game]
 ```
+[game]
 level_size = 100
 max_players = 4
 time_limit = 600
